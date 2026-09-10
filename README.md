@@ -6,6 +6,28 @@ NotebookLM stays the generation tool. This repository does not host books, does 
 
 Owner: [hokwanhung](https://github.com/hokwanhung).
 
+Finance and investing is the first collection, not the whole studio. Add a folder under `collections/` whenever a topic has its own NotebookLM notebook.
+
+## Suggested collections
+
+Pick topics with a **bounded source set** (a shelf of books, a paper pack, or public reports) that you want to turn into a report, video, podcast, flashcards, and quiz. Copy `templates/collection` when you start one.
+
+| Folder | Good for | Typical sources (catalog only in git) |
+| --- | --- | --- |
+| `finance-and-investing` | Markets, allocation, investor behavior | Books you own; skip the files |
+| `economics` | Micro/macro, trade-offs, institutions | Textbooks, classic papers, public data notes |
+| `business-and-strategy` | Firms, competition, operating cadence | Strategy and management books |
+| `decision-making` | Judgment, uncertainty, mental models | Decision-science and psychology books |
+| `career-and-management` | Teams, hiring, communication at work | Management books, public essays |
+| `writing-and-rhetoric` | Clear prose, argument, editing | Style manuals, rhetoric books |
+| `history` | Periods, debates, primary vs secondary | Histories and document collections you may use |
+| `science-literacy` | Mechanisms, evidence, limits of studies | Popular science plus papers you can access |
+| `software-and-systems` | Architecture, reliability, practice | Books and public RFCs/docs (not private code) |
+| `public-policy` | Institutions, regulation, civic tech | White papers, statutes, official reports |
+| `security-and-privacy` | Threat models, defensive practice | Public standards and books you own |
+
+Skip a topic if you cannot list sources you are allowed to upload. Do not create empty folders until you actually open the notebook.
+
 ## Layout
 
 Two axes:
@@ -17,7 +39,7 @@ Two axes:
 prompts/                         shared prompts by artifact type
 templates/collection/            copy this to start a new topic
 collections/
-  finance-and-investing/         first notebook
+  finance-and-investing/         first notebook; more topics later
     sources/catalog.md           ISBN / title / author only
     prompts/                     collection-specific overrides
     outputs/
