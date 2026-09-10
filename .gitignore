@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Book files — never commit source books or e-reader dumps
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.djvu
+*.fb2
+
+# PDFs are treated as books everywhere except generated reports
+*.pdf
+!collections/**/outputs/reports/*.pdf
+
+# Local scratch (keep sources/catalog.md; never drop book binaries here)
+tmp/
+scratch/
+*.zip
