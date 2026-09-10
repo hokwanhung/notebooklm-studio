@@ -1,6 +1,8 @@
 # NotebookLM workflow
 
-Create in NotebookLM, archive here. Do not put books in git.
+Work in NotebookLM. Keep custom prompts and exports here. Do not put books in git.
+
+Start from `prompts/<purpose>/prompt.md`, change it until the output is better, then save the winning text under `collections/<topic>/prompts/` if it should not stay generic. Collections can be any learning topic.
 
 ## 1. Collection
 
@@ -20,7 +22,7 @@ Fill:
 
 ## 3. Prompts
 
-Paste a pack from `prompts/` into chat or a custom Studio instruction:
+Paste a pack from `prompts/` into chat or a custom Studio instruction, then edit it. The stock text is a baseline, not the finished prompt.
 
 | Goal | File |
 | --- | --- |

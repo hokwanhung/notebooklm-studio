@@ -35,7 +35,7 @@ collections/
 1. Create a notebook in NotebookLM.
 2. List allowed sources in `collections/<topic>/sources/catalog.md` (citations only).
 3. Upload copies you are allowed to use **outside git** (your device or Google Drive).
-4. Run prompts from `prompts/` (or the collection `prompts/` overrides).
+4. Paste a prompt from `prompts/`, customize it, then keep a better version in the collection if needed.
 5. Export artifacts and drop them into that collection’s `outputs/` folders.
 6. Paste the notebook URL into `collections/<topic>/notebook.md`.
 7. Commit. Optional: point NotebookLM at public Markdown URLs from this repo.
