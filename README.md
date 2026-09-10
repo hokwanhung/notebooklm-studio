@@ -1,32 +1,16 @@
 # notebooklm-studio
 
-Versioned archive next to [Google NotebookLM](https://notebooklm.google.com/): reusable prompts, bibliographic source catalogs, and exported artifacts (reports, video, audio podcasts, flashcards, quizzes).
+A [Google NotebookLM](https://notebooklm.google.com/) learning studio: **custom prompts** tuned for better reports, video overviews, audio podcasts, flashcards, and quizzes, plus the catalogs and exports that come out of those notebooks.
 
-NotebookLM stays the generation tool. This repository does not host books, does not replace NotebookLM, and is not a product integration.
+NotebookLM does the generation. This repo stores the prompt packs (shared and per-notebook), a bibliographic source list, and the artifacts you keep. It does not host books, replace NotebookLM, or cover only one subject.
 
 Owner: [hokwanhung](https://github.com/hokwanhung).
 
-Finance and investing is the first collection, not the whole studio. Add a folder under `collections/` whenever a topic has its own NotebookLM notebook.
+## Prompts first
 
-## Suggested collections
+Default Studio/chat instructions live in [`prompts/`](prompts/), one pack per output type. Treat them as starting points: edit for the notebook, save overrides under `collections/<topic>/prompts/`, and keep what actually improved the result.
 
-Pick topics with a **bounded source set** (a shelf of books, a paper pack, or public reports) that you want to turn into a report, video, podcast, flashcards, and quiz. Copy `templates/collection` when you start one.
-
-| Folder | Good for | Typical sources (catalog only in git) |
-| --- | --- | --- |
-| `finance-and-investing` | Markets, allocation, investor behavior | Books you own; skip the files |
-| `economics` | Micro/macro, trade-offs, institutions | Textbooks, classic papers, public data notes |
-| `business-and-strategy` | Firms, competition, operating cadence | Strategy and management books |
-| `decision-making` | Judgment, uncertainty, mental models | Decision-science and psychology books |
-| `career-and-management` | Teams, hiring, communication at work | Management books, public essays |
-| `writing-and-rhetoric` | Clear prose, argument, editing | Style manuals, rhetoric books |
-| `history` | Periods, debates, primary vs secondary | Histories and document collections you may use |
-| `science-literacy` | Mechanisms, evidence, limits of studies | Popular science plus papers you can access |
-| `software-and-systems` | Architecture, reliability, practice | Books and public RFCs/docs (not private code) |
-| `public-policy` | Institutions, regulation, civic tech | White papers, statutes, official reports |
-| `security-and-privacy` | Threat models, defensive practice | Public standards and books you own |
-
-Skip a topic if you cannot list sources you are allowed to upload. Do not create empty folders until you actually open the notebook.
+Any learning topic can be a collection. `collections/finance-and-investing/` is only the first example.
 
 ## Layout
 
@@ -39,7 +23,7 @@ Two axes:
 prompts/                         shared prompts by artifact type
 templates/collection/            copy this to start a new topic
 collections/
-  finance-and-investing/         first notebook; more topics later
+  finance-and-investing/         example notebook; add any learning topic
     sources/catalog.md           ISBN / title / author only
     prompts/                     collection-specific overrides
     outputs/
@@ -87,7 +71,7 @@ The MIT license covers prompts and scaffolding. Generated reports, media, flashc
 Copy-Item -Recurse templates\collection collections\your-topic-name
 ```
 
-Then fill `README.md`, `notebook.md`, and `sources/catalog.md`. Add collection-specific prompts only when the shared packs are not enough.
+Then fill `README.md`, `notebook.md`, and `sources/catalog.md`. Customize prompts in that collection when the shared packs are not enough.
 
 ## Related
 

@@ -1,6 +1,6 @@
 # Shared prompts
 
-Paste these into NotebookLM. They are purpose packs, not collection-specific.
+Starting instructions for NotebookLM, split by output type. Paste them into chat or custom Studio instructions, then **edit** until the report, video, podcast, flashcards, or quiz is actually useful. Save a better version in `collections/<topic>/prompts/` so the next run is not from memory.
 
 | Purpose | Prompt |
 | --- | --- |
