@@ -1,0 +1,36 @@
+---
+description: How to change NotebookLM prompt packs without bloating or ungrounding them
+globs: prompts/**/*.md,collections/**/prompts/**/*.md
+alwaysApply: true
+---
+
+# Prompt edits
+
+Shared packs live in `prompts/<purpose>/prompt.md`. Collection overrides live in `collections/<topic>/prompts/`. Do not add a sixth artifact type (study guide, LinkedIn, competitive matrix, meeting notes) unless the owner asks for that output in the studio.
+
+## Do not paste “super prompts”
+
+Blog and social prompts are drafts, not packs. Steal at most one section heading or constraint. Do not copy use-case lists, Plus vs Free, Audio/Video feature ads, or claims about Gemini versions.
+
+## Grounding (keep these)
+
+- Use only notebook sources. No invented books, quotes, data, or page numbers.
+- Cite **title and author**, not page/section numbers (ebooks and exports do not share pagination).
+- Short quotes only, attributed. This repo is public; outputs are not a book dump.
+- Label inferences. Omit what is not in the sources.
+- Finance collections: no personal advice, no guaranteed-return language, no “what happens next” forecasts.
+
+## When a change is allowed
+
+Edit a pack only if a real export failed (ungrounded citations, fake consensus, trivia quiz, hype). Prefer tightening the existing numbered list over adding a new prompt file.
+
+```md
+# ❌ BAD — new pack from a blog
+Create a Twitter thread and LinkedIn post from the paper.
+Cite page numbers. Predict next year’s market.
+
+# ✅ GOOD — one extra bullet on an existing pack
+Flag where sources disagree; do not pick a winner unless the sources justify it.
+```
+
+If two purposes start to overlap (report vs quiz vs flashcards), keep one idea per pack. Duplicate study-guide structure is not an improvement.

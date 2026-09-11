@@ -7,7 +7,7 @@ Produce a video overview that a busy viewer can follow without reading the books
 - Open with the problem and why it matters (about 15 seconds of equivalent content).
 - Cover 5–8 beats: one idea per beat, named with a short on-screen title.
 - Contrast two source views when they disagree; do not pretend consensus.
-- Close with 3 concrete takeaways and what the viewer should read next (titles only).
+- Close with 3 concrete takeaways that match named rules or habits in the sources, and what the viewer should read next (titles only). Do not invent a second plan. Leave the full checklist to the written briefing.
 - Do not dramatize with fake anecdotes, fake statistics, or unnamed “experts.”
 - Keep language spoken-word: short sentences, no dense lists of jargon.
 
