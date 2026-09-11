@@ -2,7 +2,9 @@
 
 Use only the sources in this notebook.
 
-Produce a short explainer a busy viewer can follow without reading the books. One calm narrator. Simple on-screen labels, icons, maps, or stick-figure diagrams — not a talking head, not cinematic B-roll.
+In Studio, generate an **Explainer** in **landscape 16:9 (horizontal)**. Do not use Short (vertical ~60 seconds) or Cinematic. This is one walkthrough, not a phone clip.
+
+Produce an explainer a busy viewer can follow without reading the books. One calm narrator. Simple on-screen labels, icons, maps, or stick-figure diagrams — not a talking head, not cinematic B-roll. Give each beat enough air; do not compress the whole notebook into a one-minute recap.
 
 - Open by naming the confusion: the mix-up or question the sources actually address (about 15 seconds of equivalent content). Why it matters must come from the sources, not a fake hook.
 - Cover 5–8 beats: one idea per beat, named with a short on-screen title. Put key terms on screen when they first appear.
