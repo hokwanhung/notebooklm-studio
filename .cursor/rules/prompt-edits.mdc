@@ -1,12 +1,12 @@
 ---
 description: How to change NotebookLM prompt packs without bloating or ungrounding them
-globs: prompts/**/*.md,collections/**/prompts/**/*.md
+globs: prompts/*.md,collections/**/prompts/**/*.md
 alwaysApply: true
 ---
 
 # Prompt edits
 
-Shared packs live in `prompts/<purpose>/prompt.md`. Collection overrides live in `collections/<topic>/prompts/`. Do not add a sixth artifact type (study guide, LinkedIn, competitive matrix, meeting notes) unless the owner asks for that output in the studio.
+Shared packs live in `prompts/<purpose>.md` (default: `report.md`). Do not add a sixth artifact type (study guide, LinkedIn, competitive matrix, meeting notes) unless the owner asks for that output in the studio. Do not reintroduce a folder per purpose. Do not add `collections/<topic>/prompts/` unless a shared pack is wrong for that notebook.
 
 ## Do not paste “super prompts”
 

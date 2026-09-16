@@ -25,7 +25,7 @@ Desktop.ini
 
 # PDFs are treated as books everywhere except generated reports
 *.pdf
-!collections/**/outputs/reports/*.pdf
+!collections/**/outputs/*.pdf
 
 # Local scratch (keep sources/catalog.md; never drop book binaries here)
 tmp/

@@ -2,7 +2,7 @@
 
 Work in NotebookLM. Keep custom prompts and exports here. Do not put books in git.
 
-Start from `prompts/<purpose>/prompt.md`, change it until the output is better, then save the winning text under `collections/<topic>/prompts/` if it should not stay generic. Collections can be any learning topic.
+Start from [`prompts/report.md`](../prompts/report.md). Use another file in `prompts/` only when you generate that Studio type.
 
 ## 1. Collection
 
@@ -22,17 +22,15 @@ Fill:
 
 ## 3. Prompts
 
-Paste a pack from `prompts/` into chat or a custom Studio instruction, then edit it. The stock text is a baseline, not the finished prompt.
+Paste [`prompts/report.md`](../prompts/report.md) into Reports (or chat). Open another file only when you generate that type:
 
-| Goal | File |
+| Studio type | File |
 | --- | --- |
-| Report | [`prompts/report/prompt.md`](../prompts/report/prompt.md) |
-| Video | [`prompts/video/prompt.md`](../prompts/video/prompt.md) |
-| Audio podcast | [`prompts/audio-podcast/prompt.md`](../prompts/audio-podcast/prompt.md) |
-| Flashcards | [`prompts/flashcards/prompt.md`](../prompts/flashcards/prompt.md) |
-| Quiz | [`prompts/quiz/prompt.md`](../prompts/quiz/prompt.md) |
-
-If the topic needs different wording, put an override in `collections/<topic>/prompts/` and say so in that folder’s README.
+| Report | [`prompts/report.md`](../prompts/report.md) |
+| Video | [`prompts/video.md`](../prompts/video.md) — pick **Explainer**, landscape 16:9, not Short or Cinematic |
+| Audio | [`prompts/audio-podcast.md`](../prompts/audio-podcast.md) |
+| Flashcards | [`prompts/flashcards.md`](../prompts/flashcards.md) |
+| Quiz | [`prompts/quiz.md`](../prompts/quiz.md) |
 
 ## 4. Export
 
@@ -40,11 +38,11 @@ NotebookLM’s native export is limited (Google Docs/Sheets, WAV audio, video do
 
 | Artifact | Preferred files |
 | --- | --- |
-| Report | `outputs/reports/<slug>.md` and optional `<slug>.pdf` |
-| Video | `outputs/video/<slug>.mp4` plus a short `README` or `.md` notes file |
-| Audio | `outputs/audio/<slug>.mp3` (convert WAV → MP3 when possible) |
-| Flashcards | `outputs/flashcards/<slug>.md` and `<slug>.csv` or Anki `.txt` |
-| Quiz | `outputs/quizzes/<slug>.md` and `<slug>.csv` |
+| Report | `outputs/<slug>.md` and optional `<slug>.pdf` |
+| Video | `outputs/<slug>.mp4` plus a short `.md` notes file |
+| Audio | `outputs/<slug>.mp3` (convert WAV → MP3 when possible) |
+| Flashcards | `outputs/<slug>.md` and `<slug>.csv` or Anki `.txt` |
+| Quiz | `outputs/<slug>.md` and `<slug>.csv` |
 
 Suggested slug: `YYYY-MM-DD-short-title`.
 
