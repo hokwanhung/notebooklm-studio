@@ -27,7 +27,11 @@ Desktop.ini
 *.pdf
 !collections/**/outputs/*.pdf
 
-# Local scratch (keep sources/catalog.md; never drop book binaries here)
+# Local copies for owner + agent — any format. Only local/README.md is tracked.
+local/*
+!local/README.md
+
+# Other local scratch
 tmp/
 scratch/
 *.zip

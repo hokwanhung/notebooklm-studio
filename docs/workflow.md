@@ -10,14 +10,14 @@ Copy `templates/collection` to `collections/<topic>/` and name the folder in keb
 
 Fill:
 
-- `README.md` — what the notebook is for
-- `notebook.md` — NotebookLM URL after you create it
-- `sources/catalog.md` — bibliographic rows only (title, author, year, ISBN, notes)
+- `README.md` — categories and reading order
+- `notebook.md` — NotebookLM URL(s) after you create them
+- `sources/catalog.md` — bibliographic rows only
 
 ## 2. NotebookLM notebook
 
 1. Create a notebook at [notebooklm.google.com](https://notebooklm.google.com/).
-2. Add sources from copies you are allowed to use (local files, Drive, or allowed URLs). Never commit those files to this repo.
+2. Add sources from copies you are allowed to use. Put those files in `local/<topic>/<category>/` (gitignored). Never commit books to this repo.
 3. Paste the notebook link into `notebook.md`.
 
 ## 3. Prompts

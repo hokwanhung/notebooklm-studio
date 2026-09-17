@@ -1,14 +1,17 @@
-# NotebookLM notebook
+# NotebookLM notebooks
 
-- Title: Finance and investing
-- URL:
-- Created:
-- Language:
-- Notes: Books stay off git. Catalog is bibliographic only.
+Four notebooks, one per category in [README](README.md). Local copies stay off git.
+
+| Notebook | Created | URL | Language | Notes |
+| --- | --- | --- | --- | --- |
+| 1. Mindset and value | 2026-09-11 | | English / Chinese | First export used 小狗钱钱 |
+| 2. Selection and financials | | | | |
+| 3. Technical toolkit | | | | |
+| 4. Psychology and systems | | | | Chan pair: separate Studio run |
 
 ## Checklist
 
-- [ ] Sources listed in `sources/catalog.md` (citations only)
+- [x] Reading list in `README.md`; catalog rows in `sources/catalog.md`
 - [ ] Allowed copies uploaded in NotebookLM (not in git)
-- [ ] Report prompt run (other Studio types only if needed)
-- [ ] Exports saved under `outputs/`
+- [x] Report prompt run for 小狗钱钱 (2026-09-11)
+- [x] Those exports saved under `outputs/`
