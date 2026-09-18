@@ -6,6 +6,29 @@ Books stay off git. Bibliographic rows: [`sources/catalog.md`](sources/catalog.m
 
 Do not dump a whole category into one report. Select the sources that share the same question.
 
+## Reports vs memory
+
+| Goal | Studio | Prompt |
+| --- | --- | --- |
+| Learn the system (what the book tells you to do) | Report | [`/prompts/report.md`](../../prompts/report.md) |
+| Memorize names, definitions, comparisons | Flashcards, then quiz | [`/prompts/flashcards.md`](../../prompts/flashcards.md), [`/prompts/quiz.md`](../../prompts/quiz.md) |
+
+One report per **question**, usually one book. After that report, run flashcards on the same source selection. Do not turn the report into a quiz.
+
+### How to slice (especially category 3)
+
+Upload the whole category into the notebook if you want, but **select sources** before each run:
+
+| Run | Sources | Report is for |
+| --- | --- | --- |
+| Murphy | [Murphy] only | Map of tools he names |
+| Nison | [Nison] only | Candlestick names and what he says they mean |
+| Wilder | [Wilder] only | RSI, ATR, ADX, SAR as he defines them |
+| Sperandeo | [Sperandeo] only | 1-2-3 trend rule and 200-day average |
+| Optional later | two books only | One disagreement (for example what counts as a trend) |
+
+Same pattern elsewhere: 唐朝 then 肖星, not both in one briefing; Lynch pair is one question; fund books are their own reports; Douglas pair can share a report; Chan pair is a later run, not mixed with Turtle.
+
 ## Categories
 
 | Notebook | Folder | What it is for |

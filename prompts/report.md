@@ -13,6 +13,6 @@ Write a structured briefing with these headings, in this order. Keep prose compa
 5. Open questions and limits of the sources.
 6. Quotes — only when a short attributed line is needed to avoid misstating a claim.
 
-Style: clear headings, no filler, no “as an AI” framing.
+Style: clear headings, no filler, no “as an AI” framing. This is a learning briefing: a reader should be able to apply the named rules. It is not a memorization drill. Leave recall (names, definitions, comparisons) to flashcards and quiz.
 
 If a point is not in the sources, omit it or label it as an inference and say why.

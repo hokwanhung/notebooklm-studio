@@ -2,7 +2,7 @@
 
 Use only the sources in this notebook.
 
-Write a 10–15 question quiz:
+Write a 10–15 question quiz (fewer is better than padding). If the sources name more rules than that, test the ones they treat as primary. Do not grow the quiz to cover a whole category.
 
 - Mostly multiple choice (A–D), plus 2 short-answer questions if useful.
 - Each question tests one idea: a named rule, a core claim, or a distinction the sources care about — not trivia dates unless the sources stress them.
